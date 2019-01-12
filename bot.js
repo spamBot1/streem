@@ -35,7 +35,7 @@ client.on('ready', () => {
 
 
 const developers = ["357140534529359883"]
-const adminprefix = "#";
+const adminprefix = "1";
 client.on('message', message => {//Toxic Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Toxic Codes
       if (!developers.includes(message.author.id)) return;
